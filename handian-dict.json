@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "name": "汉典词典",
+  "showRule": "@js:try {\n  var jsoup = org.jsoup.Jsoup.parse(result);\n  jsoup.select('script, style, .adsbygoogle, .wxbox, #kroy, [class*=\"nav\"], [class*=\"footer\"], [id*=\"fy\"]').remove();\n  jsoup.select('.m-header, .m-ad').remove();\n  var content = jsoup.select('.content, #jieshu, #guifan').first().html();\n  content ? content : \"<div class='error'>未查询到释义</div>\"\n} catch(e) {\n  \"解析失败: \" + e.message\n}",
+  "sortNumber": 0,
+  "urlRule": "https://www.zdic.net/hans/{{key}}"
+}
