@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/HaveCake/legado-chinese-dict/main/handian-dict
 ## 效果展示
 | 查询界面 | 
 |----------|
-| ![效果图](./demo1.jpg) |
+| ![效果图](./demo.jpg) |
 
 ## 规则特点
 - ✅ 纯净无广告
